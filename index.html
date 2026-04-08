@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For My Love ❤️</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #ff758c, #ff7eb3);
+            font-family: 'Segoe UI', sans-serif;
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3em;
+            animation: glow 2s infinite alternate;
+        }
+
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #fff; }
+            to { text-shadow: 0 0 20px #ffdde1; }
+        }
+
+        .shayari {
+            margin-top: 30px;
+            font-size: 1.5em;
+            line-height: 1.8;
+        }
+
+        .song {
+            margin-top: 40px;
+            font-style: italic;
+            font-size: 1.3em;
+            color: #ffeaea;
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            background: white;
+            color: #ff4b5c;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ffeaea;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>❤️ I Love You ❤️</h1>
+
+    <div class="shayari">
+        Teri muskaan meri pehchaan ban gayi hai, <br>
+        Teri khushi meri jaan ban gayi hai. <br><br>
+
+        Har pal tujhe dekhne ka mann karta hai, <br>
+        Tu meri zindagi ka sabse haseen armaan ban gayi hai. 💖
+    </div>
+
+    <div class="song">
+        "Tum hi ho... bas tum hi ho..." ❤️ <br>
+        "Meri duniya ka har ehsaas tumse hai..." <br>
+        "Dil ke kareeb ho tum, har dua mein ho tum..." 🎶
+    </div>
+
+    <button onclick="showMessage()">Click Me 💌</button>
+
+    <p id="msg"></p>
+</div>
+
+<script>
+    function showMessage() {
+        document.getElementById("msg").innerHTML =
+            "Tum meri life ki sabse beautiful part ho ❤️ I Love You Forever 💞";
+    }
+</script>
+
+</body>
+</html>
